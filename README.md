@@ -40,8 +40,10 @@ The menu names vary a little between TV brands.
 **3. Download StreamFlow.** Open Downloader and type this address:
 
 ```
-github.com/Getmygity/StreamFlow-TV/releases/latest/download/StreamFlow-TV.apk
+tinyurl.com/streamflowapk
 ```
+
+It leads to the latest `StreamFlow-TV.apk` here; the full address works too: `github.com/Getmygity/StreamFlow-TV/releases/latest/download/StreamFlow-TV.apk`.
 
 Choose **Install** when it finishes. If Play Protect warns about an unknown app, choose to install anyway. You can delete the APK file afterwards to save space.
 
@@ -72,7 +74,7 @@ ares-setup-device -m mytv -i "privatekey=mytv_webos" -i "passphrase=<passphrase>
 
 `--getkey` asks for the passphrase shown on the TV.
 
-**4. Install StreamFlow.** Download [`StreamFlow-LG.ipk`](https://github.com/Getmygity/StreamFlow-TV/releases/latest/download/StreamFlow-LG.ipk), then:
+**4. Install StreamFlow.** Download [`StreamFlow-LG.ipk`](https://github.com/Getmygity/StreamFlow-TV/releases/latest/download/StreamFlow-LG.ipk) (short link: `tinyurl.com/streamflowlg`), then:
 
 ```bash
 ares-install -d mytv StreamFlow-LG.ipk
@@ -93,10 +95,12 @@ ares-launch -d mytv com.youngertv.streamflow.lgtv
 ## ✨ What it does
 
 - **Live TV in rows by group.** The focused channel expands to show what's on, its time slot and the description, then **starts a muted live preview** in the tile.
+- **One entry per channel.** A channel your playlist lists several times (`Sport 1 (2)`, `Kan 11 FHD` and `Kan 11 SD`) shows once and plays its main stream. **Hold OK** on it, or hold OK while watching, to **select another server**.
 - **Tile or list view.** On Android TV, channel cards remember the last picture each channel showed.
 - **Movies & series:** series fold into seasons and episodes. **Seek** with LEFT/RIGHT (10 s → 30 s → 1 min → 5 min with quick presses) and **pause** with OK.
-- **Player overlay:** a channel browser, a forward schedule, a group picker, and CH+/CH− zapping.
-- **Hold OK** on a channel for Play, Information or Cancel.
+- **Player overlay:** a channel browser, a forward schedule, a group picker (UP from the first channel, marked "▲ GROUPS"), and CH+/CH− zapping.
+- **Live sports:** today's NBA and European football games, each with the channels in your guide that show it, and **goal alerts** while you watch another channel (press OK to switch).
+- **Hold OK** on a channel for Play, Select Server, Information or Cancel.
 - **A guide that keeps itself fresh,** search across everything, and groups you can hide and reorder.
 - **Hebrew-friendly:** programme text reads right to left.
 
@@ -106,9 +110,7 @@ ares-launch -d mytv com.youngertv.streamflow.lgtv
 | <img src="images/channel-menu.jpg" alt="Channel menu"><br>**Hold OK for the channel menu** | <img src="images/channel-info.jpg" alt="Programme information"><br>**Full programme information** |
 | <img src="images/player.jpg" alt="Player overlay"><br>**Player overlay** | <img src="images/vod-seek.jpg" alt="Seeking a movie"><br>**Seeking a movie** |
 
-### ⚽ New on LG TV: live sports
-
-The LG TV version also has **Live Sports**: today's NBA and European football games, each with the channels in your guide that show it, and **goal alerts** that pop up while you watch another channel (press OK to switch). The Android TV download doesn't have it yet.
+### ⚽ Live sports and goal alerts
 
 | | |
 |:---:|:---:|
@@ -125,7 +127,8 @@ The LG TV version also has **Live Sports**: today's NBA and European football ga
 |---|---|
 | **Arrows:** move between channels. LEFT from the first card opens the menu. | **UP / DOWN:** browse channels |
 | **OK:** watch | **LEFT / RIGHT:** browse the schedule (live) or seek (movies) |
-| **Hold OK:** channel menu | **OK:** play the browsed channel, or pause a movie |
+| **Hold OK:** channel menu (Play, Select Server, Information) | **OK:** play the browsed channel, or pause a movie |
+| | **Hold OK:** choose another server of the channel |
 | **Back:** go to the menu | **Back:** close the overlay, then return home |
 
 On an LG TV the **Magic Remote** works too: point at a channel to focus it and click to press.
