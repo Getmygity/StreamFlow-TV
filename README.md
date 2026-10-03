@@ -97,17 +97,19 @@ ares-launch -d mytv com.youngertv.streamflow.lgtv
 - **Live TV in rows by group.** The focused channel expands to show what's on, its time slot and the description, then **starts a muted live preview** in the tile.
 - **One entry per channel.** A channel your playlist lists several times (`Sport 1 (2)`, `Kan 11 FHD` and `Kan 11 SD`) shows once and plays its main stream. **Hold OK** on it, or hold OK while watching, to **select another server**.
 - **Tile or list view.** On Android TV, channel cards remember the last picture each channel showed.
-- **Movies & series:** series fold into seasons and episodes. **Seek** with LEFT/RIGHT (10 s → 30 s → 1 min → 5 min with quick presses) and **pause** with OK.
+- **Movies & series:** series fold into seasons and episodes, and every poster shows its **IMDb rating**. **Seek** with LEFT/RIGHT (10 s → 30 s → 1 min → 5 min with quick presses) and **pause** with OK.
+- **Hold OK on a movie, series or episode** for **Information** (the plot, year, length and genres) and **Play trailer**, which plays inside StreamFlow.
 - **Player overlay:** a channel browser, a forward schedule, a group picker (UP from the first channel, marked "▲ GROUPS"), and CH+/CH− zapping.
 - **Live sports:** today's NBA and European football games, each with the channels in your guide that show it, and **goal alerts** while you watch another channel (press OK to switch).
-- **Hold OK** on a channel for Play, Select Server, Information or Cancel.
+- **Hold OK** on a channel for Play, Select Server, Information or Cancel. In **Information**, LEFT and RIGHT step through the channel's schedule.
 - **A guide that keeps itself fresh,** search across everything, and groups you can hide and reorder.
 - **Hebrew-friendly:** programme text reads right to left.
 
 | | |
 |:---:|:---:|
-| <img src="images/list-view.jpg" alt="List view"><br>**List view** | <img src="images/vod.jpg" alt="Movies and series"><br>**Movies & series** |
-| <img src="images/channel-menu.jpg" alt="Channel menu"><br>**Hold OK for the channel menu** | <img src="images/channel-info.jpg" alt="Programme information"><br>**Full programme information** |
+| <img src="images/list-view.jpg" alt="List view"><br>**List view** | <img src="images/vod.jpg" alt="Movies and series"><br>**Movies & series**, with IMDb ratings |
+| <img src="images/vod-info.jpg" alt="Movie information"><br>**Hold OK on a movie** for its information | <img src="images/trailer.jpg" alt="A trailer playing"><br>**Trailers** play inside StreamFlow |
+| <img src="images/channel-menu.jpg" alt="Channel menu"><br>**Hold OK for the channel menu** | <img src="images/channel-info.jpg" alt="Programme information"><br>**Programme information**, LEFT for what's on later |
 | <img src="images/player.jpg" alt="Player overlay"><br>**Player overlay** | <img src="images/vod-seek.jpg" alt="Seeking a movie"><br>**Seeking a movie** |
 
 ### ⚽ Live sports and goal alerts
@@ -127,8 +129,8 @@ ares-launch -d mytv com.youngertv.streamflow.lgtv
 |---|---|
 | **Arrows:** move between channels. LEFT from the first card opens the menu. | **UP / DOWN:** browse channels |
 | **OK:** watch | **LEFT / RIGHT:** browse the schedule (live) or seek (movies) |
-| **Hold OK:** channel menu (Play, Select Server, Information) | **OK:** play the browsed channel, or pause a movie |
-| | **Hold OK:** choose another server of the channel |
+| **Hold OK:** channel menu (Play, Select Server, Information), or a movie's (Information, Play trailer) | **OK:** play the browsed channel, or pause a movie |
+| **LEFT / RIGHT in a channel's Information:** later in its schedule, or back | **Hold OK:** choose another server of the channel |
 | **Back:** go to the menu | **Back:** close the overlay, then return home |
 
 On an LG TV the **Magic Remote** works too: point at a channel to focus it and click to press.
@@ -137,11 +139,13 @@ On an LG TV the **Magic Remote** works too: point at a channel to focus it and c
 
 ## ❓ Questions
 
-- **Updating to a new version:** install the new file the same way. It installs over the old one and keeps your settings.
+- **Updating to a new version:** install the new file the same way. It installs over the old one and keeps your settings. On Android TV, **Settings → Check for updates** downloads and installs it for you; on an LG TV it shows what's new and how to install it.
 - **"App not installed" (Android TV):** uninstall any older StreamFlow build first, then install again.
 - **The QR page won't open on my phone (Android TV):** make sure the phone and the TV are on the same Wi-Fi network.
 - **StreamFlow disappeared from my LG TV:** the Developer Mode session ran out. Turn Developer Mode on again, install the IPK again, and extend the session every few weeks from then on.
 - **Typing a long link on the LG TV is slow:** use the LG ThinQ app on your phone as the TV's keyboard.
+
+<sub>This product uses the TMDB API but is not endorsed or certified by TMDB. Ratings: information courtesy of IMDb (imdb.com), used with permission.</sub>
 
 <p align="center">
   <img src="images/tv-banner.png" alt="StreamFlow TV" width="320">
