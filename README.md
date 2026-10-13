@@ -8,17 +8,17 @@
 </p>
 
 <p align="center">
-  <a href="https://tinyurl.com/5ee4bvwv"><img alt="Download the APK for Android TV" src="https://img.shields.io/badge/Android%20TV-StreamFlow--TV.apk-A78BFA?style=for-the-badge&logo=android&logoColor=white"></a>
-  <a href="https://github.com/Getmygity/StreamFlow-TV/releases/latest/download/StreamFlow-LG.ipk"><img alt="Download the IPK for LG TV" src="https://img.shields.io/badge/LG%20TV-StreamFlow--LG.ipk-A78BFA?style=for-the-badge&logo=lg&logoColor=white"></a>
+  <a href="https://tinyurl.com/5ee4bvwv"><img alt="Download the APK for Android TV" src="https://img.shields.io/badge/Android%20TV-StreamFlow--TV.apk-FFFFFF?style=for-the-badge&logo=android&logoColor=white&labelColor=000000"></a>
+  <a href="https://github.com/Getmygity/StreamFlow-TV/releases/latest/download/StreamFlow-LG.ipk"><img alt="Download the IPK for LG TV" src="https://img.shields.io/badge/LG%20TV-StreamFlow--LG.ipk-FFFFFF?style=for-the-badge&logo=lg&logoColor=white&labelColor=000000"></a>
 </p>
 
 <p align="center">
-  <img alt="Android TV 5.0+" src="https://img.shields.io/badge/Android%20TV-5.0%2B-2B1850?style=for-the-badge&logo=android&logoColor=white">
-  <img alt="LG webOS 22+" src="https://img.shields.io/badge/LG%20webOS-22%2B-2B1850?style=for-the-badge&logo=lg&logoColor=white">
+  <img alt="Android TV 5.0+" src="https://img.shields.io/badge/Android%20TV-5.0%2B-262626?style=for-the-badge&logo=android&logoColor=white&labelColor=000000">
+  <img alt="LG webOS 22+" src="https://img.shields.io/badge/LG%20webOS-22%2B-262626?style=for-the-badge&logo=lg&logoColor=white&labelColor=000000">
 </p>
 
 <p align="center">
-  <img src="images/focused-card.jpg" alt="StreamFlow home screen" width="90%">
+  <img src="images/home.jpg" alt="StreamFlow home screen" width="90%">
 </p>
 
 **Which one do I need?** An Android TV, Google TV or Android box takes **`StreamFlow-TV.apk`** ([install steps](#%EF%B8%8F-install-on-your-android-tv)). An LG smart TV from 2022 or later takes **`StreamFlow-LG.ipk`** ([install steps](#%EF%B8%8F-install-on-your-lg-tv)).
@@ -94,10 +94,10 @@ ares-launch -d mytv com.youngertv.streamflow.lgtv
 
 ## ✨ What it does
 
-- **Live TV in rows by group.** The focused channel expands to show what's on, its time slot and the description, then **starts a muted live preview** in the tile.
+- **Live TV in rows by group,** under a slim rail of icons that opens with labels when you move onto it. **A hero across the top** shows the channel in focus: what's on, its hours and the description, and after 5 seconds **a muted live preview**.
 - **One entry per channel.** A channel your playlist lists several times (`Sport 1 (2)`, `Kan 11 FHD` and `Kan 11 SD`) shows once and plays its main stream. **Hold OK** on it, or hold OK while watching, to **select another server**.
 - **Tile or list view.** On Android TV, channel cards remember the last picture each channel showed.
-- **Movies & series:** series fold into seasons and episodes, and every poster shows its **IMDb rating**. **Seek** with LEFT/RIGHT (10 s → 30 s → 1 min → 5 min with quick presses) and **pause** with OK.
+- **Movies & series:** series fold into seasons and episodes, and every poster shows its **IMDb rating**. The hero shows the movie or series in focus with its plot, and **after 2 seconds plays its trailer**. **Seek** with LEFT/RIGHT (10 s → 30 s → 1 min → 5 min with quick presses) and **pause** with OK.
 - **Hold OK on a movie, series or episode** for **Information** (the plot, year, length and genres) and **Play trailer**, which plays inside StreamFlow.
 - **Player overlay:** a channel browser, a forward schedule, a group picker (UP from the first channel, marked "▲ GROUPS"), and CH+/CH− zapping.
 - **Live sports:** today's NBA and European football games, each with the channels in your guide that show it, and **goal alerts** while you watch another channel (press OK to switch).
@@ -107,8 +107,9 @@ ares-launch -d mytv com.youngertv.streamflow.lgtv
 
 | | |
 |:---:|:---:|
-| <img src="images/list-view.jpg" alt="List view"><br>**List view** | <img src="images/vod.jpg" alt="Movies and series"><br>**Movies & series**, with IMDb ratings |
-| <img src="images/vod-info.jpg" alt="Movie information"><br>**Hold OK on a movie** for its information | <img src="images/trailer.jpg" alt="A trailer playing"><br>**Trailers** play inside StreamFlow |
+| <img src="images/rail.jpg" alt="The rail, open"><br>**The rail**, open | <img src="images/list-view.jpg" alt="List view"><br>**List view** |
+| <img src="images/vod.jpg" alt="Movies and series"><br>**Movies & series**, with IMDb ratings | <img src="images/vod-trailer.jpg" alt="A trailer in the hero"><br>**Trailers in the hero**, after 2 seconds |
+| <img src="images/vod-info.jpg" alt="Movie information"><br>**Hold OK on a movie** for its information | <img src="images/trailer.jpg" alt="A trailer playing"><br>**Trailers** play full screen too |
 | <img src="images/channel-menu.jpg" alt="Channel menu"><br>**Hold OK for the channel menu** | <img src="images/channel-info.jpg" alt="Programme information"><br>**Programme information**, LEFT for what's on later |
 | <img src="images/player.jpg" alt="Player overlay"><br>**Player overlay** | <img src="images/vod-seek.jpg" alt="Seeking a movie"><br>**Seeking a movie** |
 
