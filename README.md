@@ -1,27 +1,29 @@
 <p align="center">
-  <img src="images/header.png" alt="StreamFlow TV — IPTV player for Android TV and LG TV" width="100%">
+  <img src="images/header.png" alt="StreamFlow TV — IPTV player for Android TV, LG TV and Android phones" width="100%">
 </p>
 
 <p align="center">
-  <b>An IPTV player for Android TV and LG TV, made for the remote.</b><br>
+  <b>An IPTV player for Android TV, LG TV and Android phones.</b><br>
   Bring your own M3U playlist and XMLTV guide; StreamFlow does the rest.
 </p>
 
 <p align="center">
   <a href="https://tinyurl.com/5ee4bvwv"><img alt="Download the APK for Android TV" src="https://img.shields.io/badge/Android%20TV-StreamFlow--TV.apk-FFFFFF?style=for-the-badge&logo=android&logoColor=white&labelColor=000000"></a>
   <a href="https://github.com/Getmygity/StreamFlow-TV/releases/latest/download/StreamFlow-LG.ipk"><img alt="Download the IPK for LG TV" src="https://img.shields.io/badge/LG%20TV-StreamFlow--LG.ipk-FFFFFF?style=for-the-badge&logo=lg&logoColor=white&labelColor=000000"></a>
+  <a href="https://github.com/Getmygity/StreamFlow-TV/releases/latest/download/StreamFlow-Phone.apk"><img alt="Download the APK for Android phones" src="https://img.shields.io/badge/Android%20phone-StreamFlow--Phone.apk-FFFFFF?style=for-the-badge&logo=android&logoColor=white&labelColor=000000"></a>
 </p>
 
 <p align="center">
   <img alt="Android TV 5.0+" src="https://img.shields.io/badge/Android%20TV-5.0%2B-262626?style=for-the-badge&logo=android&logoColor=white&labelColor=000000">
   <img alt="LG webOS 22+" src="https://img.shields.io/badge/LG%20webOS-22%2B-262626?style=for-the-badge&logo=lg&logoColor=white&labelColor=000000">
+  <img alt="Android 8.0+" src="https://img.shields.io/badge/Android%20phone-8.0%2B-262626?style=for-the-badge&logo=android&logoColor=white&labelColor=000000">
 </p>
 
 <p align="center">
   <img src="images/home.jpg" alt="StreamFlow home screen" width="90%">
 </p>
 
-**Which one do I need?** An Android TV, Google TV or Android box takes **`StreamFlow-TV.apk`** ([install steps](#%EF%B8%8F-install-on-your-android-tv)). An LG smart TV from 2022 or later takes **`StreamFlow-LG.ipk`** ([install steps](#%EF%B8%8F-install-on-your-lg-tv)).
+**Which one do I need?** An Android TV, Google TV or Android box takes **`StreamFlow-TV.apk`** ([install steps](#%EF%B8%8F-install-on-your-android-tv)). An LG smart TV from 2022 or later takes **`StreamFlow-LG.ipk`** ([install steps](#%EF%B8%8F-install-on-your-lg-tv)). An Android phone takes **`StreamFlow-Phone.apk`** ([install steps](#%EF%B8%8F-install-on-your-android-phone)).
 
 ---
 
@@ -52,6 +54,27 @@ Choose **Install** when it finishes. If Play Protect warns about an unknown app,
 > **You need your own IPTV subscription.** StreamFlow is a player only; it comes with no channels.
 >
 > **Prefer a computer?** Download [`StreamFlow-TV.apk`](https://tinyurl.com/5ee4bvwv), then run `adb connect <tv-ip>:5555` and `adb install StreamFlow-TV.apk`.
+
+---
+
+## ⬇️ Install on your Android phone
+
+For phones with **Android 8.0 or newer**. StreamFlow isn't in the Play Store, so it's installed from this page. It takes about two minutes.
+
+**1. Download it on the phone.** In the phone's browser, open `github.com/Getmygity/StreamFlow-TV/releases/latest/download/StreamFlow-Phone.apk`, or tap the badge at the top of this page.
+
+**2. Let the browser install apps.** When Android asks, tap **Settings**, switch on **Allow from this source**, and go back. (Or: *Settings → Apps → Special app access → Install unknown apps*, then your browser.)
+
+**3. Install.** Open the downloaded file and tap **Install**. If Play Protect warns about an unknown app, choose to install anyway.
+
+**4. Type your links.** Open **StreamFlow** and enter your **playlist (M3U) link** and, optionally, your **guide (XMLTV) link**. It loads your channels and you're in.
+
+<p align="center">
+  <img src="images/phone-live.jpg" alt="Live TV on a phone" width="30%">
+  <img src="images/phone-vod.jpg" alt="Movies and series on a phone" width="30%">
+  <img src="images/phone-sports.jpg" alt="Live sports on a phone" width="30%"><br>
+  <sub>Live TV · Movies &amp; series · Live sports</sub>
+</p>
 
 ---
 
@@ -104,6 +127,7 @@ ares-launch -d mytv com.youngertv.streamflow.lgtv
 - **Hold OK** on a channel for Play, Select Server, Information or Cancel. In **Information**, LEFT and RIGHT step through the channel's schedule.
 - **A guide that keeps itself fresh,** search across everything, and groups you can hide and reorder.
 - **Hebrew-friendly:** programme text reads right to left.
+- **On a phone:** the same channels, movies and sports in a tab bar; play sideways, swipe through the schedule and the channels, and get goal alerts.
 
 | | |
 |:---:|:---:|
@@ -120,7 +144,12 @@ ares-launch -d mytv com.youngertv.streamflow.lgtv
 | <img src="images/lg-sports.jpg" alt="Live sports on LG TV"><br>**Live sports** — each game with its channels | <img src="images/lg-goal-alert.jpg" alt="Goal alert on LG TV"><br>**Goal alert** — OK switches to the game |
 | <img src="images/lg-home.jpg" alt="LG TV home screen"><br>**LG TV home** — with the muted preview | <img src="images/lg-player.jpg" alt="LG TV player"><br>**LG TV player** |
 
-<sub>Screenshots use a test playlist: the Android TV emulator, and the LG app's desktop build.</sub>
+<p align="center">
+  <img src="images/phone-player.jpg" alt="The phone's player, sideways" width="70%"><br>
+  <sub>The phone's player, sideways</sub>
+</p>
+
+<sub>Screenshots use a test playlist: the Android TV and Android phone emulators, and the LG app's desktop build.</sub>
 
 ---
 
@@ -140,8 +169,8 @@ On an LG TV the **Magic Remote** works too: point at a channel to focus it and c
 
 ## ❓ Questions
 
-- **Updating to a new version:** install the new file the same way. It installs over the old one and keeps your settings. On Android TV, **Settings → Check for updates** downloads and installs it for you; on an LG TV it shows what's new and how to install it.
-- **"App not installed" (Android TV):** uninstall any older StreamFlow build first, then install again.
+- **Updating to a new version:** install the new file the same way. It installs over the old one and keeps your settings. On Android TV, **Settings → Check for updates** downloads and installs it for you; on an LG TV it shows what's new and how to install it. On a phone too, **Settings → Check for updates** downloads and installs it.
+- **"App not installed" (Android TV or phone):** uninstall any older StreamFlow build first, then install again.
 - **The QR page won't open on my phone (Android TV):** make sure the phone and the TV are on the same Wi-Fi network.
 - **StreamFlow disappeared from my LG TV:** the Developer Mode session ran out. Turn Developer Mode on again, install the IPK again, and extend the session every few weeks from then on.
 - **Typing a long link on the LG TV is slow:** use the LG ThinQ app on your phone as the TV's keyboard.
