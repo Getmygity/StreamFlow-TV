@@ -61,11 +61,11 @@ Choose **Install** when it finishes. If Play Protect warns about an unknown app,
 
 For phones with **Android 8.0 or newer**. StreamFlow isn't in the Play Store, so it's installed from this page. It takes about two minutes.
 
-**1. Download it on the phone.** In the phone's browser, open `github.com/Getmygity/StreamFlow-TV/releases/latest/download/StreamFlow-Phone.apk`, or tap the badge at the top of this page.
+**1. Download it on the phone.** In the phone's browser, open `github.com/Getmygity/StreamFlow-TV/releases/latest/download/StreamFlow-Phone.apk`, or tap the badge at the top of this page. If the browser warns that this type of file can harm your device, choose **Download anyway**.
 
-**2. Let the browser install apps.** When Android asks, tap **Settings**, switch on **Allow from this source**, and go back. (Or: *Settings → Apps → Special app access → Install unknown apps*, then your browser.)
+**2. Open the file and allow the install.** Open the downloaded file (from the browser's downloads, or the notification). The first time, Android says the browser isn't allowed to install apps: tap **Settings**, switch on **Allow from this source**, and go back. (Or: *Settings → Apps → Special app access → Install unknown apps*, then your browser.)
 
-**3. Install.** Open the downloaded file and tap **Install**. If Play Protect warns about an unknown app, choose to install anyway.
+**3. Install.** Tap **Install**. If Play Protect warns about an unknown app, choose to install anyway.
 
 **4. Type your links.** Open **StreamFlow** and enter your **playlist (M3U) link** and, optionally, your **guide (XMLTV) link**. It loads your channels and you're in.
 
