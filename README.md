@@ -127,7 +127,7 @@ ares-launch -d mytv com.youngertv.streamflow.lgtv
 - **Hold OK** on a channel for Play, Select Server, Information or Cancel. In **Information**, LEFT and RIGHT step through the channel's schedule.
 - **A guide that keeps itself fresh,** search across everything, and groups you can hide and reorder.
 - **Hebrew-friendly:** programme text reads right to left.
-- **On a phone:** the same channels, movies and sports in a tab bar; play sideways, swipe through the schedule and the channels, and get goal alerts.
+- **On a phone:** the same channels, movies and sports in a tab bar; play sideways, swipe through the schedule and the channels, and get goal alerts; keep watching in a Picture-in-Picture window, or listen with the screen locked.
 
 | | |
 |:---:|:---:|
