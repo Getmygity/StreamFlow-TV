@@ -122,7 +122,7 @@ ares-launch -d mytv com.youngertv.streamflow.lgtv
 - **Tile or list view.** On Android TV, channel cards remember the last picture each channel showed.
 - **Movies & series:** series fold into seasons and episodes, and every poster shows its **IMDb rating**. The hero shows the movie or series in focus with its plot, and **after 2 seconds plays its trailer**. **Seek** with LEFT/RIGHT (10 s → 30 s → 1 min → 5 min with quick presses) and **pause** with OK.
 - **Hold OK on a movie, series or episode** for **Information** (the plot, year, length and genres) and **Play trailer**, which plays inside StreamFlow.
-- **Player overlay:** a channel browser, a forward schedule, a group picker (UP from the first channel, marked "▲ GROUPS"), and CH+/CH− zapping.
+- **Player overlay:** a channel browser, a forward schedule, a group picker (DOWN on the first channel, marked "▼ GROUPS"), and CH+/CH− zapping.
 - **Live sports:** today's NBA and European football games, each with the channels in your guide that show it, and **goal alerts** while you watch another channel (press OK to switch).
 - **Hold OK** on a channel for Play, Select Server, Information or Cancel. In **Information**, LEFT and RIGHT step through the channel's schedule.
 - **A guide that keeps itself fresh,** search across everything, and groups you can hide and reorder.
@@ -157,7 +157,7 @@ ares-launch -d mytv com.youngertv.streamflow.lgtv
 
 | On the home screen | While watching |
 |---|---|
-| **Arrows:** move between channels. LEFT from the first card opens the menu. | **UP / DOWN:** browse channels |
+| **Arrows:** move between channels. LEFT from the first card opens the menu. | **UP / DOWN:** next / previous channel; DOWN on the first opens the group picker |
 | **OK:** watch | **LEFT / RIGHT:** browse the schedule (live) or seek (movies) |
 | **Hold OK:** channel menu (Play, Select Server, Information), or a movie's (Information, Play trailer) | **OK:** play the browsed channel, or pause a movie |
 | **LEFT / RIGHT in a channel's Information:** later in its schedule, or back | **Hold OK:** choose another server of the channel |
