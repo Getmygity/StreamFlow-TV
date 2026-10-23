@@ -127,7 +127,7 @@ ares-launch -d mytv com.youngertv.streamflow.lgtv
 - **Hold OK** on a channel for Play, Select Server, Information or Cancel. In **Information**, LEFT and RIGHT step through the channel's schedule.
 - **A guide that keeps itself fresh,** search across everything, and groups you can hide and reorder.
 - **Hebrew-friendly:** programme text reads right to left.
-- **On a phone:** the same channels, movies and sports in a tab bar; play sideways, swipe through the schedule and the channels, and get goal alerts; keep watching in a Picture-in-Picture window, or listen with the screen locked.
+- **On a phone:** the same channels, movies and sports in a tab bar; play sideways, swipe through the schedule and the channels, and get goal alerts; keep watching in a Picture-in-Picture window, or listen with the screen locked; download movies and episodes to watch offline, and record live channels.
 
 | | |
 |:---:|:---:|
@@ -170,7 +170,7 @@ On an LG TV the **Magic Remote** works too: point at a channel to focus it and c
 ## ❓ Questions
 
 - **Updating to a new version:** install the new file the same way. It installs over the old one and keeps your settings. On Android TV, **Settings → Check for updates** downloads and installs it for you; on an LG TV it shows what's new and how to install it. On a phone too, **Settings → Check for updates** downloads and installs it.
-- **"App not installed" (Android TV or phone):** uninstall any older StreamFlow build first, then install again.
+- **"App not installed" (Android TV or phone):** uninstall any older StreamFlow build first (on a phone this also deletes your downloads and recordings), then install again.
 - **The QR page won't open on my phone (Android TV):** make sure the phone and the TV are on the same Wi-Fi network.
 - **StreamFlow disappeared from my LG TV:** the Developer Mode session ran out. Turn Developer Mode on again, install the IPK again, and extend the session every few weeks from then on.
 - **Typing a long link on the LG TV is slow:** use the LG ThinQ app on your phone as the TV's keyboard.
