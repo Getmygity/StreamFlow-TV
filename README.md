@@ -123,13 +123,16 @@ ares-launch -d mytv com.youngertv.streamflow.lgtv
 - **Movies & series:** series fold into seasons and episodes, and every poster shows its **IMDb rating**. The hero shows the movie or series in focus with its plot, and **after 2 seconds plays its trailer**. **Seek** with LEFT/RIGHT (10 s → 30 s → 1 min → 5 min with quick presses) and **pause** with OK.
 - **OK on a movie or series opens its card:** the plot, year, length and genres, with **Play** (or **Episodes**) ready, so OK again plays.
 - **Up next:** in an episode's last 10 seconds the next one counts down, from the next season too. Choose **Play next** or **Back to the series**, or press Back to let the episode end.
+- **Pick up where you left off:** movies and episodes resume where you stopped, with **Resume** or **Start over** on the card. A **Continue watching** row at the top of Movies & series lists what you started, and moves on to a series' next episode.
+- **Favourites:** add a channel, movie or series from its menu (hold OK) or the heart on its card. Favourites get their own row at the top of Live TV and of Movies & series, and a Favorites group in the player.
+- **Downloads on Android TV:** a movie's or episode's card has **Download**, a ✓ marks what's on the TV, and the **Library** in the rail plays it without the internet.
 - **Hold OK on a movie, series or episode** for **Information** and **Play trailer**, which plays inside StreamFlow.
 - **Player overlay:** a channel browser, a forward schedule, a group picker (DOWN on the first channel, marked "▼ GROUPS"), and CH+/CH− zapping.
 - **Live sports:** today's NBA and European football games, each with the channels in your guide that show it, and **goal alerts** while you watch another channel (press OK to switch).
 - **Hold OK** on a channel for Play, Select Server, Information or Cancel. In **Information**, LEFT and RIGHT step through the channel's schedule.
 - **A guide that keeps itself fresh,** search across everything, and groups you can hide and reorder.
 - **Hebrew-friendly:** programme text reads right to left.
-- **On a phone:** the same channels, movies and sports in a tab bar; play sideways, swipe through the schedule and the channels, and get goal alerts; keep watching in a Picture-in-Picture window, or listen with the screen locked; download movies and episodes to watch offline (a ✓ marks what's on the phone), and record live channels. A tap on a movie opens its card, and up next works there too.
+- **On a phone:** the same channels, movies and sports in a tab bar; play sideways, swipe through the schedule and the channels, and get goal alerts; keep watching in a Picture-in-Picture window, or listen with the screen locked; download movies and episodes to watch offline (a ✓ marks what's on the phone), and record live channels. A tap on a movie opens its card, and up next, resume, Continue watching and favourites work there too.
 
 | | |
 |:---:|:---:|
@@ -161,7 +164,7 @@ ares-launch -d mytv com.youngertv.streamflow.lgtv
 |---|---|
 | **Arrows:** move between channels. LEFT from the first card opens the menu. | **UP / DOWN:** next / previous channel; DOWN on the first opens the group picker |
 | **OK:** watch a channel, or open a movie's or series' card (OK again plays) | **LEFT / RIGHT:** browse the schedule (live) or seek (movies) |
-| **Hold OK:** channel menu (Play, Select Server, Information), or a movie's (Information, Play trailer) | **OK:** play the browsed channel, or pause a movie |
+| **Hold OK:** channel menu (Play, Select Server, Information, Add to favorites), or a movie's (Information, Play trailer, Add to favorites, and Download on Android TV) | **OK:** play the browsed channel, or pause a movie |
 | **LEFT / RIGHT in a channel's Information:** later in its schedule, or back | **Hold OK:** choose another server of the channel |
 | **Back:** go to the menu | **Back:** close the overlay, then return home |
 | | **Up next** (an episode's last 10 s): LEFT / RIGHT choose Play next or Back to the series, OK presses; Back lets the episode end |
